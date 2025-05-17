@@ -19,10 +19,12 @@ public class Board {
     }
 
     public void oneMove(int a, int b, int c) {
-        for (int i = 1; i <= a; i++) {
-            for (int j = 0; j <= b && j <= i; j++) {
-                for (int k = 0; k <= c && k <= j; k++) {
-                    System.out.println(i + "" + j + k);
+//        for (int i = 1; i <= a; i++) {
+//            for (int j = 0; j <= b && j <= i; j++) {
+//                for (int k = 0; k <= c && k <= j; k++) {
+        int i = a;
+        int j = b;
+        int k = c;
 
                     if (i == 1) {
                         if (j == 0) {
@@ -66,7 +68,7 @@ public class Board {
 
                 }
             }
-        }
-    }
-    }
+
+
+
 
